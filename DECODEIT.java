@@ -12,6 +12,7 @@ class Codechef
 	    int T;
 	    Scanner sc = new Scanner(System.in);
 		T = sc.nextInt();
+		while(T-->0){
 		if(T >= 1 && T <= 10)
 		{
 		  int N;
@@ -44,5 +45,6 @@ class Codechef
 		  }
           }
 		}
+	}
 	}
 }
